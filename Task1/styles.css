@@ -1,0 +1,76 @@
+nav.navbar {
+  background-color: white !important;
+  padding-left: 7em !important;
+  padding-right: 3em !important;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+.navbar-brand > span {
+  color: #c476098c;
+}
+li.nav-item {
+  padding: 0 1em;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  background-color: #dc8e248c;
+  border-radius: 33px;
+  font-weight: bold;
+}
+.carousel-item img {
+  height: 70%;
+  width: 70%;
+}
+
+.carousel-caption {
+  left: 70px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #000;
+  text-align: left;
+  top: 40%;
+  max-width: 440px;
+}
+
+.carousel-caption h2 {
+  color: #c476098c;
+  font: 3em;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font: 3em;
+  color: black;
+  font-weight: bold;
+}
+
+.carousel-indicators li {
+  box-sizing: border-box;
+  background-color: #c476098c;
+  height: 6px;
+  width: 37px;
+}
+.carousel-indicators .active {
+  background-color: #5c37028c;
+}
+#services {
+  padding: 2em;
+  text-align: center;
+}
+.card img {
+  height: 40%;
+  width: 50%;
+}
+.card {
+  align-items: center;
+  padding: 14px;
+}
+.card-deck {
+  padding: 60px;
+  justify-content: center;
+}
