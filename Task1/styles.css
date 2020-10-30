@@ -58,7 +58,8 @@ li.nav-item {
 .carousel-indicators .active {
   background-color: #5c37028c;
 }
-#services {
+#services,
+#about {
   padding: 2em;
   text-align: center;
 }
@@ -72,5 +73,23 @@ li.nav-item {
 }
 .card-deck {
   padding: 60px;
+  justify-content: center;
+}
+#about {
+  background-color: rgb(248, 241, 241);
+}
+#about .row {
+  margin: 30px;
+}
+#about img {
+  width: 100%;
+  height: 100%;
+}
+#aboutUs {
+  width: 100%;
+  margin: 0px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
